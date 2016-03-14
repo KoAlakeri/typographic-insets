@@ -96,3 +96,18 @@ main p:first-child::first-letter {
   padding: 0.5rem 1rem;
   margin: 0 0.5rem;
 }
+
+figure {
+  width: 300px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding: 0.5rem 0;
+  margin-right: -150px;
+  float: right;
+}
+
+figcaption {
+  font-style: italic;
+  padding: 0.2rem 0;
+  font-size: 0.9rem;
+}
